@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <style>
+    body {
+      min-height: 100vh;
+      background-color: #000000;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      padding: 1.5rem;
+    }
+    .card {
+      background-color: #444242;
+      border-radius: 2rem;
+      padding: 4rem;
+      text-align: center;
+      box-shadow: #01ff44;
+      box-shadow: 0 35px 40px rgba(4, 255, 13, 0.2);
+    }
+    .social-links {
+      display: grid;
+      gap: 0.7rem;
+      margin-top: 2rem;
+    }
+
+    .social-links a {
+      padding: 0.95rem 1rem;
+      border-radius: 1.5rem;
+      background-color: rgba(255, 255, 255, 0.05);
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+
+    .social-links a:hover,
+    .social-links a:focus-visible {
+      transform: translateY(-1px);
+      background-color: #4fbe4f;
+      box-shadow: 0 12px 30px rgba(250, 9, 85, 0.2);
+    }
+   
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="avatar-jessica.jpeg" alt="Jessica Davis" width="130" height="130" style="border-radius: 50%;" >
+    <h1 style="color: white;"><b>Jessica Davis</b></h1>
+    <p style="color: #50a418; font-size: 1.2rem; line-height: 1;"><b>London, United Kingdom</b></p>
+    <p style="color: #050404; font-size: 1rem; line-height: 1.5;">Front-end developer and avid reader.</p>
+   
+    <div class="social-links">
+      <a href="https://github.com/jessicadavis" >GitHub</a>
+      <a href="https://www.frontendmentor.io" >Frontend Mentor</a>
+      <a href="https://www.linkedin.com/in/jessica-davis" >LinkedIn</a>
+      <a href="https://www.twitter.com/jessica.davis" >Twitter</a>
+      <a href="https://www.instagram.com/jessica.davis" >Instagram</a>
+    </div>
+  </div>
+</body>
+</html>
